@@ -15,7 +15,7 @@ spec:
       serviceAccountName: webapp-sa
       containers:
         - name: webapp
-          image: amardeepdockerimg/webapp:v2
+          image: srijith16/webapp:v2
           ports:
             - containerPort: 8080
           volumeMounts:
